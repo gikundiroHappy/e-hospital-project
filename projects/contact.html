@@ -8,12 +8,12 @@
 
     <div class="navbar">
         <div class="icon">
-            <a href="index.html" class="logo">E-HOSPITAL</a>
+            <a href="../index.html" class="logo">E-HOSPITAL</a>
         </div>
 
         <div class="menu">
             <ul class="menu-items">
-                <li><a href="index.html">HOME</a></li>
+                <li><a href="../index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="service.html">SERVICE</a></li>
                 
@@ -32,8 +32,9 @@
     </div>
     <div class="contact-form">
     <h3>CONTACT_US</h3><br>
-    <label for="name">Name:</label><br>
-    <input type="text" name="name" id="name"><br><br>
+    <form method="post" action="../contact.php">
+        <label for="name">Name:</label><br>
+        <input type="text" name="name" id="name"><br><br>
     <label for="email">Email:</label><br>
     <input type="text" name="email" id="email"><br><br>
     <label for="phone">Phone:</label><br>
@@ -43,6 +44,8 @@
     <label for="message">Message:</label><br>
     <textarea name="message" id="" cols="33" rows="10"></textarea><br><br>
     <button type="submit">send</button>
+    </form>
+    
   </div>
 </body>
 </html>
