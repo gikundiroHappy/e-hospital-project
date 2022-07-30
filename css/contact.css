@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: beige;
+}
+.contact-image img{
+  height: 83vh;
+  width: 248px;
+  margin-left: 430px;
+}
+
+.contact-image{
+  height: 83vh;
+  width: 248px;
+  margin-left: 430px;
+  background-image: url(../pictures/img8.JPG);
+}
+.contact-image p{
+  
+}
+
+.contact-form h3{
+  color: orange;
+  text-align: center;
+}
+.contact-form{
+  padding: 5px 0px 5px 10px;
+  background-color: white;
+  width: 20%;
+  position: absolute;
+  top: 90px;
+  left: 678px;
+}
+
+.contact-form input{
+  height: 20px;
+  width: 248px;
+}
+.contact-form button{
+  background-color: orange;
+  margin: px;
+  padding: 8px;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  width: 248px;
+  font-weight: bold;
+}

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    /*background: url(../pictures/img12.JPG);*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    height: 100vh;
+}
+
+
+.pic{
+    
+}
+.pic img{
+    margin-left: -18%;
+    border-radius: 50%;
+
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(14, 14, 61);
+    position: relative;
+    margin-left: 15px;
+}
+
+.content .par{
+    padding-left: 15px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.form{
+    width: 500px;
+    height: 500px;
+    background: rgb(47, 47, 63);
+    position: absolute;
+    top: 90px;
+    left: 770px;
+    border-radius: 15px;
+    padding: 25px;
+    font-size: 27px;
+}
+
+.form h2{
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 8px;
+}
+.form input{
+    height: 28px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+.form label{
+    color: white;
+}
+.form input, label{
+    margin-left: 12px;
+}
+
+
+
+.button2 button{
+    background-color: orange;
+    margin: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    width: 250px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: white;
+    color: orange;
+} 
+.form input:not(.gender){
+
+    width: 250px;
+    border-radius: 5px;
+    padding: 2px;
+}
+span{
+    color: orange;
+}

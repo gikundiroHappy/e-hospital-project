@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+   <link rel="stylesheet" href="../css/E_hospital.css">
+   <link rel="stylesheet" href="../css/header.css">
+    <title>E-HOSPITAL</title>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <a href="E_hospital.html" class="logo">E-HOSPITAL</a>
+            </div>
+
+            <div class="menu">
+                <ul class="menu-items">
+                    <li><a href="E_hospital.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="service.html">SERVICE</a></li>
+                    
+                    <!--<li><a href="doctors.html"></a></li>-->
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+                <div class="button1"><a href="login1.html"><button type="submit">LOG IN</button></a>
+              </div>
+        </div>
+            <div class="pic"><img src="../pictures/pic11.PNG" alt=""></div>
+
+            <div class="content">
+                <h1>Making life <br>better</h1>
+                <p class="par">This hospital work hand in hand with <br> doctors to take care of patients such <br> that they are well treated with good care.</p>
+            </div>
+            <div class="form">
+                <h2>In order to get a unique number fill this form:</h2>
+                <label for="name">Name:</label><br>
+                <input type="text" name="name" id="name"><br> 
+                <label for="dob">DOB:</label><br>
+                <input type="date" name="dob" id="dob"><br>
+                <label for="Phone-number">Phone-number:</label><br>
+                <input type="numeric" name="Phone-number" id="phone-number"><br>
+                <label for="age">Age:</label><br>
+                <input type="numeric" name="age" id="age"><br>
+                <label for="">Gender:</label>
+                <span>Male</span>  <input class="gender" type="radio" name="male" id="male" >
+                  <span>Female</span><input class="gender" type="radio" name="female" id="female" ><br>
+                 <label for="">Location:</label>
+                 <select name="" id="">
+                     <option>Kigali</option>
+                     <option>Muhanga</option>
+                     <option>Kamonyi</option>
+                     <option>Rulindo</option>
+                     <option>Huye</option>
+                 </select><br><br>
+                 <div  class="button2">
+                 <button type="submit" onclick="register();">submit</button>
+                </div>
+             </div>
+        </div>
+        <script src="../js/registration.js"></script>
+</body>
+</html>
