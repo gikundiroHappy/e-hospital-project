@@ -2,23 +2,28 @@
     margin: 0;
     padding: 0;
 }
-body{
+.contact-main{
   background-color: beige;
+  height: 100%;
 }
 .contact-image img{
-  height: 83vh;
+  height: 100%;
   width: 248px;
   margin-left: 430px;
+  
+}
+
+.contact-image p{
+  margin: 10px;
+  color: white;
+  font-size: 20px;
 }
 
 .contact-image{
-  height: 83vh;
-  width: 248px;
-  margin-left: 430px;
-  background-image: url(../pictures/img8.JPG);
-}
-.contact-image p{
-  
+  height: 78vh;
+  width: 250px;
+  margin-left: 428px;
+  background-image: url(../pictures/img9.JPG)
 }
 
 .contact-form h3{

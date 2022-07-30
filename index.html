@@ -4,7 +4,7 @@
    <link rel="stylesheet" href="css/header.css">
     <title>E-HOSPITAL</title>
 </head>
-<body>
+<body style="background-image: url(../pictures/img12.JPG);">
     <div class="main">
         <div class="navbar">
             <div class="icon">
@@ -31,20 +31,21 @@
                 <p class="par">This hospital work hand in hand with <br> doctors to take care of patients such <br> that they are well treated with good care.</p>
             </div>
             <div class="form">
+                <form  method="post" action="../index.php">
                 <h2>In order to get a unique number fill this form:</h2>
                 <label for="name">Name:</label><br>
                 <input type="text" name="name" id="name"><br> 
                 <label for="dob">DOB:</label><br>
                 <input type="date" name="dob" id="dob"><br>
                 <label for="Phone-number">Phone-number:</label><br>
-                <input type="numeric" name="Phone-number" id="phone-number"><br>
+                <input type="numeric" name="Phone_number" id="phone_number"><br>
                 <label for="age">Age:</label><br>
                 <input type="numeric" name="age" id="age"><br>
                 <label for="">Gender:</label>
-                <span>Male</span>  <input class="gender" type="radio" name="male" id="male" >
-                  <span>Female</span><input class="gender" type="radio" name="female" id="female" ><br>
+                <span>Male</span>  <input class="gender" type="radio" name="male" id="male" value="male">
+                  <span>Female</span><input class="gender" type="radio" name="female" id="female" value="female"><br>
                  <label for="">Location:</label>
-                 <select name="" id="">
+                 <select name="locatio" id="">
                      <option>Kigali</option>
                      <option>Muhanga</option>
                      <option>Kamonyi</option>
@@ -53,7 +54,7 @@
                  </select><br><br>
                  <div  class="button2">
                  <button type="submit" onclick="register();">submit</button>
-                </div>
+                </div></form>
              </div>
         </div>
         <script src="../js/registration.js"></script>

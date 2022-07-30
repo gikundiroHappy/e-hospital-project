@@ -5,15 +5,8 @@
 
 .main{
     width: 100%;
-    /*background: url(../pictures/img12.JPG);*/
-    /*background-position: center;*/
-    /*background-size: cover;*/
+    background-image: url(../pictures/img13.JPG);
     height: 100vh;
-}
-
-
-.pic{
-    
 }
 .pic img{
     margin-left: -18%;
