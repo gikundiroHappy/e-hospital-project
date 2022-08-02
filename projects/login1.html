@@ -3,16 +3,16 @@
         <title>login</title>
         <link rel="stylesheet" href="../css/login1.css">
     </head>
-    <body style="background-image: url(../pictures/img12.JPG);">
+    <body style="background-image: url(../pictures/img12.JPG)">
         <h1>LOG IN</h1>
-        <form method="post">
+        <form method="post" action="../login.php">
             <div class="txt-field">
                 <label>Username:</label>
-                <input type="text" required>
+                <input type="text" name="name" required>
             </div><br>
             <div class="txt-field">
                    <label>Password:</label>
-                <input type="password" required>
+                <input type="password" name="password" required>
             </div><br>
             <div>
                 <button class="logsub">login</button>
