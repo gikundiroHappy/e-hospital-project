@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.eyedef_image img{
+    width: 100%;
+    height: 70vh;
+    border-bottom-left-radius:40%;
+     border-bottom-right-radius:40%;
+}
+.eyedef_main{
+    padding: 5px;
+    margin: 10px;
+}
+.eyedef_main h1{
+    font-family: arial;
+    text-align: center;
+    color: orange;
+}
+.eyedef_main p{
+    font-size: 25px;
+}
+.eyedef_main h2{
+    font-family: arial;
+    color: orange;
+}
+.doctor1_details p{
+    position: absolute;
+    left: 350px;
+    top: 860px;
+}
+.doctor2_details p{
+    position: absolute;
+    left: 400px;
+    top: 1200px;
+}
