@@ -1,36 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.pediatri_image img{
-    width: 100%;
-    height: 70vh;
-    border-bottom-left-radius:40%;
-     border-bottom-right-radius:40%;
+.pediatri_image img {
+  width: 100%;
+  height: 70vh;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
 }
-.pediatri_main{
-    padding: 5px;
-    margin: 10px;
+.pediatri_main {
+  padding: 5px;
+  margin: 10px;
 }
-.pediatri_main h1{
-    font-family: arial;
-    text-align: center;
-    color: orange;
+.pediatri_main h1 {
+  font-family: arial;
+  text-align: center;
+  color: rgb(41, 83, 103);
 }
-.pediatri_main p{
-    font-size: 25px;
+.pediatri_main p {
+  font-size: 18px;
 }
-.pediatri_main h2{
-    font-family: arial;
-    color: orange;
+.pediatri_main h2 {
+  font-family: arial;
+  color: rgb(41, 83, 103);
 }
-.doctor1_details p{
-    position: absolute;
-    left: 370px;
-    top: 860px;
+.doctor1_details {
+  background: rgb(177, 177, 177);
+  border-radius: 3px;
+  width: 28%;
+  padding: 15px;
 }
-.doctor2_details p{
-    position: absolute;
-    left: 400px;
-    top: 1200px;
+.doctor2_details {
+  background: rgb(177, 177, 177);
+  border-radius: 3px;
+  padding: 15px;
+  width: 28%;
+}
+.doctors {
+  display: flex;
+  gap: 100px;
+}
+.doctor1_details .data {
+  padding-left: 20px;
+}
+.doctor1_details img {
+  padding: 20px;
+  width: 320px;
+}
+.doctor1_details p,
+h3 {
+  margin-left: 20px;
+}
+.doctor2_details img {
+  padding: 20px;
+  width: 320px;
+}
+.doctor2_details p {
+  margin-left: 20px;
 }

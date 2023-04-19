@@ -1,106 +1,123 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  background-image: url(../pictures/ground.webp);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100vh;
+}
+.navbar .icon img {
+  width: 200px;
+  height: 100px;
+  margin-top: -30px;
+}
+.pic img {
+  margin-left: -18%;
+  border-radius: 50%;
 }
 
-.main{
-    width: 100%;
-    background-image: url(../pictures/img13.JPG);
-    height: 100vh;
-}
-.pic img{
-    margin-left: -18%;
-    border-radius: 50%;
-
-}
-
-.content{
-    width: 1200px;
-    height: auto;
-    margin: auto;
-    color: rgb(14, 14, 61);
-    position: relative;
-    margin-left: 15px;
+.content {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: rgb(14, 14, 61);
+  position: relative;
+  margin-left: 15px;
+  margin: 150px 20px 100px 100px;
+  object-fit: cover;
 }
 
-.content .par{
-    padding-left: 15px;
-    padding-bottom: 25px;
-    font-family: arial;
-    letter-spacing: 1.2px;
-    line-height: 30px;
-    font-size: 30px;
+.content .par {
+  padding-left: 15px;
+  padding-bottom: 25px;
+  font-family: arial;
+  letter-spacing: 1.2px;
+  font-size: 20px;
 }
 
-.content h1{
-    font-family: 'Times New Roman';
-    font-size: 50px;
-    padding-left: 20px;
-    margin-top: 10px;
-    letter-spacing: 2px;
+.content h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  padding-left: 20px;
+  margin-bottom: 60px;
+  letter-spacing: 2px;
+  color: rgb(41, 83, 103);
 }
 
-.form{
-    width: 500px;
-    height: 500px;
-    background: rgb(47, 47, 63);
-    position: absolute;
-    top: 90px;
-    left: 770px;
-    border-radius: 15px;
-    padding: 25px;
-    font-size: 27px;
+.form {
+  width: 500px;
+  height: 500px;
+  background: rgb(177, 177, 177);
+  position: absolute;
+  top: 90px;
+  left: 770px;
+  border-radius: 15px;
+  padding: 25px;
+  font-size: 20px;
 }
 
-.form h2{
-    font-family: sans-serif;
-    text-align: center;
-    color: orange;
-    font-size: 22px;
-    background-color: white;
-    border-radius: 10px;
-    margin: 5px;
-    padding: 8px;
+.form h2 {
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(41, 83, 103);
+  font-size: 22px;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 5px 5px;
+  padding: 8px;
 }
-.form input{
-    height: 28px;
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-top: 5px;
-    font-family: sans-serif;
+.form input {
+  height: 28px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  font-family: sans-serif;
+  border: none;
+  outline: none;
 }
-.form label{
-    color: white;
+.form label {
+  color: black;
 }
-.form input, label{
-    margin-left: 12px;
+.form input,
+label {
+  margin-left: 12px;
+}
+.form select option {
+  outline: none;
 }
 
-
-
-.button2 button{
-    background-color: orange;
-    margin: 10px;
-    padding: 8px;
-    border: none;
-    border-radius: 12px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    width: 250px;
-    font-weight: bold;
+.button2 button {
+  background-color: rgb(41, 83, 103);
+  margin: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  width: 250px;
+  font-weight: bold;
 }
-button:hover{
-    background-color: white;
-    color: orange;
-} 
-.form input:not(.gender){
-
-    width: 250px;
-    border-radius: 5px;
-    padding: 2px;
+button:hover {
+  background-color: white;
+  color: rgb(41, 83, 103);
+  border: 1px solid rgb(41, 83, 103);
 }
-span{
-    color: orange;
+.form input:not(.gender) {
+  width: 250px;
+  border-radius: 5px;
+  padding: 2px;
+}
+.form span {
+  margin-left: 20px;
+  padding-top: -50px;
 }

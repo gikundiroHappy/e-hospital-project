@@ -1,36 +1,49 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.contact-main{
+body {
   background-color: beige;
+}
+
+.contact-main {
   height: 100%;
 }
-.contact-image img{
+.contact-image img {
   height: 100%;
   width: 248px;
   margin-left: 430px;
-  
+}
+.navbar .icon img {
+  width: 200px;
+  height: 100px;
+  margin-top: -30px;
 }
 
-.contact-image p{
+.contact-image p {
   margin: 10px;
   color: white;
   font-size: 20px;
 }
 
-.contact-image{
-  height: 78vh;
+.contact-image {
+  height: 81vh;
   width: 250px;
   margin-left: 428px;
-  background-image: url(../pictures/img9.JPG)
+  background-image: url(../pictures/contact.webp);
 }
-
-.contact-form h3{
-  color: orange;
+.contact-image p {
+  color: black;
+}
+.contact-image p span i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.contact-form h3 {
+  color: rgb(41, 83, 103);
   text-align: center;
 }
-.contact-form{
+.contact-form {
   padding: 5px 0px 5px 10px;
   background-color: white;
   width: 20%;
@@ -39,12 +52,17 @@
   left: 678px;
 }
 
-.contact-form input{
+.contact-form input {
   height: 20px;
   width: 248px;
+  outline: none;
+  padding: 2px 3px;
 }
-.contact-form button{
-  background-color: orange;
+.contact-form textarea {
+  outline: none;
+}
+.contact-form button {
+  background-color: rgb(41, 83, 103);
   margin: px;
   padding: 8px;
   border: none;
@@ -55,4 +73,9 @@
   cursor: pointer;
   width: 248px;
   font-weight: bold;
+}
+.contact-form button:hover {
+  color: rgb(41, 83, 103);
+  background-color: white;
+  border: 1px solid rgb(41, 83, 103);
 }

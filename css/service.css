@@ -1,128 +1,136 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-/*.main-page{
-    padding: 3px;
-    margin: 3px;
-}*/
+#service {
+  padding: 30px;
+  /* margin: 50px; */
+}
+body {
+  background-color: beige;
+}
 
-h2{
-    font-size: 30px;
-    text-align: center;
-    color: orange;
-    font-weight: bold;
+h2 {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(41, 83, 103);
+  font-weight: bold;
+  font-family: arial;
+  font-weight: bold;
 }
-.image1 img{
-    width: 50%;
-    height: 50vh;
+.image1 {
+  display: flex;
+}
+.image1 img {
+  width: 50%;
+  height: 50vh;
 }
 .par1 {
-    font-size: 50px;
-    position: absolute;
-    left: 750px;
-    top: 150px;
+  font-size: 50px;
+  position: absolute;
+  left: 750px;
+  top: 150px;
 }
-.btn1{
-    position: absolute;
-    left: 750px;
-    top: 300px;
-    width: 30%;
-    height: 40px;
-    background-color: orange;
-    color: white;
-    border-radius: 5px;
-    border: 1px solid orange;
-    cursor: pointer;
-    font-size: 20px;
+.btn1 {
+  position: absolute;
+  left: 750px;
+  top: 300px;
+  width: 30%;
+  height: 40px;
+  background-color: rgb(41, 83, 103);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(41, 83, 103);
+  cursor: pointer;
+  font-size: 20px;
 }
-.btn1:hover{
-    background-color: white;
-    color: orange;
+.btn1:hover {
+  background-color: white;
+  color: rgb(41, 83, 103);
 }
-.image2 img{
-    width: 50%;
-    float: right;
-    height: 50vh;
+.image2 img {
+  width: 50%;
+  float: right;
+  height: 50vh;
 }
-.par2{
-    font-size: 50px;
-    position: absolute;
-    margin-left :40px;
-}
-
-.btn2{
-    position: absolute;
-    margin-left: 40px;
-    bottom: -10px;
-    width: 30%;
-    height: 40px;
-    background-color: orange;
-    border: 1px solid orange;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 20px;
+.par2 {
+  font-size: 50px;
+  position: absolute;
+  margin-left: 40px;
 }
 
-.btn2:hover{
-    background-color: white;
-    color: orange;
-}
-.image3 img{
-    width: 50%;
-    height: 50vh;
-    margin-top: 335px;
-}
-
-.par3{
-    font-size: 50px;
-    position: absolute;
-    left: 750px;
-    top: 830px;
-}
-.btn3{
-    position: absolute;
-    left: 750px;
-    top: 980px;
-    width: 30%;
-    height: 40px;
-    background-color: orange;
-    color: white;
-    border-radius: 5px;
-    border: 1px solid orange;
-    cursor: pointer;
-    font-size: 20px;
-}
-.btn3:hover{
-    background-color: white;
-    color: orange;
-}
-.image4 img{
-    width: 50%;
-    height: 50vh;
-    float: right;
-}
-.par4{
-    font-size: 50px;
-    position: absolute;
-    margin-left :40px;
-}
-.btn4{
-    position: absolute;
-    margin-left: 40px;
-    bottom: -690px;
-    width: 30%;
-    height: 40px;
-    background-color: orange;
-    color: white;
-    border-radius: 5px;
-    border: 1px solid orange;
-    cursor: pointer;
-    font-size: 20px;
+.btn2 {
+  position: absolute;
+  margin-left: 40px;
+  bottom: -10px;
+  width: 30%;
+  height: 40px;
+  background-color: rgb(41, 83, 103);
+  border: 1px solid rgb(41, 83, 103);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
 }
 
-.btn4:hover{
-    background-color: white;
-    color: orange;
+.btn2:hover {
+  background-color: white;
+  color: rgb(41, 83, 103);
+}
+.image3 img {
+  width: 50%;
+  height: 50vh;
+  margin-top: 335px;
+}
+
+.par3 {
+  font-size: 50px;
+  position: absolute;
+  left: 750px;
+  top: 830px;
+}
+.btn3 {
+  position: absolute;
+  left: 750px;
+  top: 980px;
+  width: 30%;
+  height: 40px;
+  background-color: rgb(41, 83, 103);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(41, 83, 103);
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn3:hover {
+  background-color: white;
+  color: rgb(41, 83, 103);
+}
+.image4 img {
+  width: 50%;
+  height: 50vh;
+  float: right;
+}
+.par4 {
+  font-size: 50px;
+  position: absolute;
+  margin-left: 40px;
+}
+.btn4 {
+  position: absolute;
+  margin-left: 40px;
+  bottom: -690px;
+  width: 30%;
+  height: 40px;
+  background-color: rgb(41, 83, 103);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(41, 83, 103);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn4:hover {
+  background-color: white;
+  color: rgb(41, 83, 103);
 }
